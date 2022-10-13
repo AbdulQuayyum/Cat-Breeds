@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import { useState } from 'react'
+import ReactReadMoreReadLess from "react-read-more-read-less"
 import { createClient } from '@supabase/supabase-js'
-import ReactReadMoreReadLess from "react-read-more-read-less";
 
 export async function getStaticProps() {
 
